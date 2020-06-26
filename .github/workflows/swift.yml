@@ -18,15 +18,15 @@ jobs:
       run: /usr/bin/xcodebuild -version
     - name: Build archive
       run: |
-        xcodebuild -sdk iphoneos -project Azure-sample/Azure\ sample.xcodeproj \
+        xcodebuild -sdk iphoneos -project Azure\ sample.xcodeproj \
           -configuration Release -scheme Azure-sample \
           -derivedDataPath DerivedData \
           -archivePath DerivedData/Archive/Azure-sample archive
-    - name: Export Archive
-      run: |
-        xcodebuild -exportArchive \
-          -archivePath DerivedData/Archive/Azure-sample.xcarchive \
-          -exportOptionsPlist provisioning/App-Store.plist \
-          -exportPath DerivedData/ipa
+#     - name: Export Archive
+#       run: |
+#         xcodebuild -exportArchive \
+#           -archivePath DerivedData/Archive/Azure-sample.xcarchive \
+#           -exportOptionsPlist provisioning/App-Store.plist \
+#           -exportPath DerivedData/ipa
 
 
