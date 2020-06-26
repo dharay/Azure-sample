@@ -16,12 +16,14 @@ jobs:
       run: sudo xcode-select -switch /Applications/Xcode_11.3.app
     - name: Xcode version
       run: /usr/bin/xcodebuild -version
-    - name: Build archive
-      run: |
-        xcodebuild -sdk iphoneos -project Azure\ sample.xcodeproj \
-          -configuration Release -scheme Azure-sample \
-          -derivedDataPath DerivedData \
-          -archivePath DerivedData/Archive/Azure-sample archive
+#     - name: Build archive
+#       run: |
+#         xcodebuild -sdk iphoneos -project Azure\ sample.xcodeproj \
+#           -configuration Release -scheme Azure-sample \
+#           -derivedDataPath DerivedData \
+#           -archivePath DerivedData/Archive/Azure-sample archive
+    - name: Build App
+      run: xcodebuild -project "Azure sample.xcodeproj" -scheme "Azure sample" -destination "generic/platform=iOS" -configuration Release build CODE_SIGNING_ALLOWED=NO
 #     - name: Export Archive
 #       run: |
 #         xcodebuild -exportArchive \
