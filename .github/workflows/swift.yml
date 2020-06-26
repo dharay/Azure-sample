@@ -18,7 +18,7 @@ jobs:
       run: /usr/bin/xcodebuild -version
     - name: Build archive
       run: |
-        xcodebuild -sdk iphoneos -project 'Azure-sample/Azure sample.xcodeproj' \
+        xcodebuild -sdk iphoneos -project Azure-sample/Azure\ sample.xcodeproj \
           -configuration Release -scheme Azure-sample \
           -derivedDataPath DerivedData \
           -archivePath DerivedData/Archive/Azure-sample archive
