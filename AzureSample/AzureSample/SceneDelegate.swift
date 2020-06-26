@@ -1,8 +1,8 @@
 //
 //  SceneDelegate.swift
-//  Azure sample
+//  AzureSample
 //
-//  Created by Mistry, Dharay Paresh on 04/05/20.
+//  Created by Mistry, Dharay Paresh on 26/06/20.
 //  Copyright © 2020 Mistry, Dharay Paresh. All rights reserved.
 //
 

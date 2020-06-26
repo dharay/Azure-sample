@@ -1,8 +1,8 @@
 //
 //  ContentView.swift
-//  Azure sample
+//  AzureSample
 //
-//  Created by Mistry, Dharay Paresh on 04/05/20.
+//  Created by Mistry, Dharay Paresh on 26/06/20.
 //  Copyright © 2020 Mistry, Dharay Paresh. All rights reserved.
 //
 
@@ -10,8 +10,7 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, World! /n Azure sample")
-//        Text("Azure sample")
+        Text("Hello, World!")
     }
 }
 

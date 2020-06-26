@@ -7,27 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B5C9BBDD245FD65000359527 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C9BBDC245FD65000359527 /* AppDelegate.swift */; };
-		B5C9BBDF245FD65000359527 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C9BBDE245FD65000359527 /* SceneDelegate.swift */; };
-		B5C9BBE1245FD65100359527 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C9BBE0245FD65100359527 /* ContentView.swift */; };
-		B5C9BBE3245FD65200359527 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5C9BBE2245FD65200359527 /* Assets.xcassets */; };
-		B5C9BBE6245FD65200359527 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5C9BBE5245FD65200359527 /* Preview Assets.xcassets */; };
-		B5C9BBE9245FD65200359527 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5C9BBE7245FD65200359527 /* LaunchScreen.storyboard */; };
+		B52314B424A6059600A0B98B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B52314B324A6059600A0B98B /* AppDelegate.swift */; };
+		B52314B624A6059600A0B98B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B52314B524A6059600A0B98B /* SceneDelegate.swift */; };
+		B52314B824A6059600A0B98B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B52314B724A6059600A0B98B /* ContentView.swift */; };
+		B52314BA24A6059700A0B98B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B52314B924A6059700A0B98B /* Assets.xcassets */; };
+		B52314BD24A6059700A0B98B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B52314BC24A6059700A0B98B /* Preview Assets.xcassets */; };
+		B52314C024A6059700A0B98B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B52314BE24A6059700A0B98B /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		B5C9BBD9245FD65000359527 /* Azure sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Azure sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B5C9BBDC245FD65000359527 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B5C9BBDE245FD65000359527 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B5C9BBE0245FD65100359527 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		B5C9BBE2245FD65200359527 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		B5C9BBE5245FD65200359527 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		B5C9BBE8245FD65200359527 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		B5C9BBEA245FD65200359527 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B52314B024A6059600A0B98B /* AzureSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AzureSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B52314B324A6059600A0B98B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B52314B524A6059600A0B98B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B52314B724A6059600A0B98B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B52314B924A6059700A0B98B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B52314BC24A6059700A0B98B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B52314BF24A6059700A0B98B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B52314C124A6059700A0B98B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		B5C9BBD6245FD65000359527 /* Frameworks */ = {
+		B52314AD24A6059600A0B98B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -37,40 +37,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		B5C9BBD0245FD65000359527 = {
+		B52314A724A6059600A0B98B = {
 			isa = PBXGroup;
 			children = (
-				B5C9BBDB245FD65000359527 /* Azure sample */,
-				B5C9BBDA245FD65000359527 /* Products */,
+				B52314B224A6059600A0B98B /* AzureSample */,
+				B52314B124A6059600A0B98B /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		B5C9BBDA245FD65000359527 /* Products */ = {
+		B52314B124A6059600A0B98B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B5C9BBD9245FD65000359527 /* Azure sample.app */,
+				B52314B024A6059600A0B98B /* AzureSample.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B5C9BBDB245FD65000359527 /* Azure sample */ = {
+		B52314B224A6059600A0B98B /* AzureSample */ = {
 			isa = PBXGroup;
 			children = (
-				B5C9BBDC245FD65000359527 /* AppDelegate.swift */,
-				B5C9BBDE245FD65000359527 /* SceneDelegate.swift */,
-				B5C9BBE0245FD65100359527 /* ContentView.swift */,
-				B5C9BBE2245FD65200359527 /* Assets.xcassets */,
-				B5C9BBE7245FD65200359527 /* LaunchScreen.storyboard */,
-				B5C9BBEA245FD65200359527 /* Info.plist */,
-				B5C9BBE4245FD65200359527 /* Preview Content */,
+				B52314B324A6059600A0B98B /* AppDelegate.swift */,
+				B52314B524A6059600A0B98B /* SceneDelegate.swift */,
+				B52314B724A6059600A0B98B /* ContentView.swift */,
+				B52314B924A6059700A0B98B /* Assets.xcassets */,
+				B52314BE24A6059700A0B98B /* LaunchScreen.storyboard */,
+				B52314C124A6059700A0B98B /* Info.plist */,
+				B52314BB24A6059700A0B98B /* Preview Content */,
 			);
-			path = "Azure sample";
+			path = AzureSample;
 			sourceTree = "<group>";
 		};
-		B5C9BBE4245FD65200359527 /* Preview Content */ = {
+		B52314BB24A6059700A0B98B /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				B5C9BBE5245FD65200359527 /* Preview Assets.xcassets */,
+				B52314BC24A6059700A0B98B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -78,39 +78,39 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B5C9BBD8245FD65000359527 /* Azure sample */ = {
+		B52314AF24A6059600A0B98B /* AzureSample */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B5C9BBED245FD65200359527 /* Build configuration list for PBXNativeTarget "Azure sample" */;
+			buildConfigurationList = B52314C424A6059700A0B98B /* Build configuration list for PBXNativeTarget "AzureSample" */;
 			buildPhases = (
-				B5C9BBD5245FD65000359527 /* Sources */,
-				B5C9BBD6245FD65000359527 /* Frameworks */,
-				B5C9BBD7245FD65000359527 /* Resources */,
+				B52314AC24A6059600A0B98B /* Sources */,
+				B52314AD24A6059600A0B98B /* Frameworks */,
+				B52314AE24A6059600A0B98B /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Azure sample";
-			productName = "Azure sample";
-			productReference = B5C9BBD9245FD65000359527 /* Azure sample.app */;
+			name = AzureSample;
+			productName = AzureSample;
+			productReference = B52314B024A6059600A0B98B /* AzureSample.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		B5C9BBD1245FD65000359527 /* Project object */ = {
+		B52314A824A6059600A0B98B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1130;
 				LastUpgradeCheck = 1130;
 				ORGANIZATIONNAME = "Mistry, Dharay Paresh";
 				TargetAttributes = {
-					B5C9BBD8245FD65000359527 = {
+					B52314AF24A6059600A0B98B = {
 						CreatedOnToolsVersion = 11.3.1;
 					};
 				};
 			};
-			buildConfigurationList = B5C9BBD4245FD65000359527 /* Build configuration list for PBXProject "Azure sample" */;
+			buildConfigurationList = B52314AB24A6059600A0B98B /* Build configuration list for PBXProject "AzureSample" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -118,47 +118,47 @@
 				en,
 				Base,
 			);
-			mainGroup = B5C9BBD0245FD65000359527;
-			productRefGroup = B5C9BBDA245FD65000359527 /* Products */;
+			mainGroup = B52314A724A6059600A0B98B;
+			productRefGroup = B52314B124A6059600A0B98B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B5C9BBD8245FD65000359527 /* Azure sample */,
+				B52314AF24A6059600A0B98B /* AzureSample */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		B5C9BBD7245FD65000359527 /* Resources */ = {
+		B52314AE24A6059600A0B98B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B5C9BBE9245FD65200359527 /* LaunchScreen.storyboard in Resources */,
-				B5C9BBE6245FD65200359527 /* Preview Assets.xcassets in Resources */,
-				B5C9BBE3245FD65200359527 /* Assets.xcassets in Resources */,
+				B52314C024A6059700A0B98B /* LaunchScreen.storyboard in Resources */,
+				B52314BD24A6059700A0B98B /* Preview Assets.xcassets in Resources */,
+				B52314BA24A6059700A0B98B /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		B5C9BBD5245FD65000359527 /* Sources */ = {
+		B52314AC24A6059600A0B98B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B5C9BBDD245FD65000359527 /* AppDelegate.swift in Sources */,
-				B5C9BBDF245FD65000359527 /* SceneDelegate.swift in Sources */,
-				B5C9BBE1245FD65100359527 /* ContentView.swift in Sources */,
+				B52314B424A6059600A0B98B /* AppDelegate.swift in Sources */,
+				B52314B624A6059600A0B98B /* SceneDelegate.swift in Sources */,
+				B52314B824A6059600A0B98B /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		B5C9BBE7245FD65200359527 /* LaunchScreen.storyboard */ = {
+		B52314BE24A6059700A0B98B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				B5C9BBE8245FD65200359527 /* Base */,
+				B52314BF24A6059700A0B98B /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -166,7 +166,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		B5C9BBEB245FD65200359527 /* Debug */ = {
+		B52314C224A6059700A0B98B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -226,7 +226,7 @@
 			};
 			name = Debug;
 		};
-		B5C9BBEC245FD65200359527 /* Release */ = {
+		B52314C324A6059700A0B98B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -280,38 +280,38 @@
 			};
 			name = Release;
 		};
-		B5C9BBEE245FD65200359527 /* Debug */ = {
+		B52314C524A6059700A0B98B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"Azure sample/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"AzureSample/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "Azure sample/Info.plist";
+				INFOPLIST_FILE = AzureSample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "sample.Azure-sample";
+				PRODUCT_BUNDLE_IDENTIFIER = sample.AzureSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		B5C9BBEF245FD65200359527 /* Release */ = {
+		B52314C624A6059700A0B98B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"Azure sample/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"AzureSample/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "Azure sample/Info.plist";
+				INFOPLIST_FILE = AzureSample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "sample.Azure-sample";
+				PRODUCT_BUNDLE_IDENTIFIER = sample.AzureSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -321,25 +321,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B5C9BBD4245FD65000359527 /* Build configuration list for PBXProject "Azure sample" */ = {
+		B52314AB24A6059600A0B98B /* Build configuration list for PBXProject "AzureSample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B5C9BBEB245FD65200359527 /* Debug */,
-				B5C9BBEC245FD65200359527 /* Release */,
+				B52314C224A6059700A0B98B /* Debug */,
+				B52314C324A6059700A0B98B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B5C9BBED245FD65200359527 /* Build configuration list for PBXNativeTarget "Azure sample" */ = {
+		B52314C424A6059700A0B98B /* Build configuration list for PBXNativeTarget "AzureSample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B5C9BBEE245FD65200359527 /* Debug */,
-				B5C9BBEF245FD65200359527 /* Release */,
+				B52314C524A6059700A0B98B /* Debug */,
+				B52314C624A6059700A0B98B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = B5C9BBD1245FD65000359527 /* Project object */;
+	rootObject = B52314A824A6059600A0B98B /* Project object */;
 }

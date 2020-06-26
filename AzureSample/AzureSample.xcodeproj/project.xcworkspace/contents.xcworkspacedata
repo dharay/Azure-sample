@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:Azure sample.xcodeproj">
+      location = "self:AzureSample.xcodeproj">
    </FileRef>
 </Workspace>
