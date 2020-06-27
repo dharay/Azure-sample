@@ -16,6 +16,9 @@ jobs:
       run: sudo xcode-select -switch /Applications/Xcode_11.3.app
     - name: Xcode version
       run: /usr/bin/xcodebuild -version
+    - name: recon
+      run: ls
+        
 #     - name: Build archive
 #       run: |
 #         xcodebuild -sdk iphoneos -project Azure\ sample.xcodeproj \
