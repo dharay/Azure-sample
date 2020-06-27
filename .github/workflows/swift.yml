@@ -23,7 +23,7 @@ jobs:
 #           -derivedDataPath DerivedData \
 #           -archivePath DerivedData/Archive/Azure-sample archive
     - name: Build App
-      run: xcodebuild -project "Azure sample.xcodeproj" -scheme "Azure sample" -destination "generic/platform=iOS" -configuration Release build CODE_SIGNING_ALLOWED=NO
+      run: xcodebuild -project "AzureSample/AzureSample.xcodeproj" -scheme "AzureSample" -destination "generic/platform=iOS" -configuration Release build CODE_SIGNING_ALLOWED=NO
 #     - name: Export Archive
 #       run: |
 #         xcodebuild -exportArchive \
