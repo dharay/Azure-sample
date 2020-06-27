@@ -25,7 +25,7 @@ jobs:
         pwd
         cd AzureSample
     - name: Build App
-      run: xcodebuild -project "AzureSample/AzureSample.xcodeproj" -scheme "AzureSample" -destination "generic/platform=iOS"
+      run: xcodebuild -project "AzureSample/AzureSample.xcodeproj" -scheme "AzureSample" -destination "generic/platform=iOS" build CODE_SIGNING_ALLOWED=NO
       
       
       
