@@ -23,7 +23,7 @@ jobs:
       run: |
         ls
         pwd
-       cd AzureSample
+        cd AzureSample
     - name: Build App
       run: xcodebuild -project "AzureSample.xcodeproj" -scheme "AzureSample" -destination "generic/platform=iOS"
       
