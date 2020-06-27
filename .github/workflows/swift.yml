@@ -17,11 +17,13 @@ jobs:
       run: sudo xcode-select -switch /Applications/Xcode_11.3.app
     - name: Xcode version
       run: /usr/bin/xcodebuild -version
+    - name: Checkout
+      uses: actions/checkout@master
     - name: recon
       run: |
         ls
         pwd
-#        cd AzureSample
+       cd AzureSample
     - name: Build App
       run: xcodebuild -project "AzureSample.xcodeproj" -scheme "AzureSample" -destination "generic/platform=iOS"
       
