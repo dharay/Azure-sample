@@ -3,7 +3,7 @@ name: Swift
 
 on:
   push:
-    branches: [ feauture ]
+    branches: [ feature/testcicd ]
   pull_request:
     branches: [ master ]
 
