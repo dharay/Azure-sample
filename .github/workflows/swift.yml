@@ -3,7 +3,7 @@ name: Swift
 
 on:
   push:
-    branches: [ feauture/avtar/TestCICD ]
+    branches: [ feauture ]
   pull_request:
     branches: [ master ]
 
